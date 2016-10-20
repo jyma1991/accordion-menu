@@ -1,7 +1,6 @@
 * {
 	margin: 0;
 	padding: 0;
-
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
@@ -9,10 +8,9 @@
 
 body {
 	margin-top: 30px;
-	font-size: 28px;
+	font-size: 24px;
 	background: rgb(239,243,266);
 	color: #666666;
-	font-family: 'Open Sans', Arial, Helvetica, Sans-serif, Verdana, Tahoma;
 }
 
 ul {
@@ -28,11 +26,6 @@ a {
 /** =======================
  * Contenedor Principal
  ===========================*/
-h1 {
- 	font-weight: 400;
- 	text-align: center;
- 	margin-top: 80px;
- }
 
  .accordion {
  	width: 100%;
@@ -45,9 +38,9 @@ h1 {
 .accordion .link {
 	cursor: pointer;
 	display: block;
-	height: 88px;
-	line-height: 88px;
-	padding: 0px 30px 0px 30px;
+	height: 70px;
+	line-height: 70px;
+	padding: 0px 20px 0px 20px;
 	font-weight: 700;
 	border-bottom: 1px solid #CCC;
 	position: relative;
@@ -61,12 +54,14 @@ h1 {
 }
 
 .accordion li span{
-	margin-left: 30px;
+	margin-left: 16px;
 }
 
 .accordion li img.imgLeft {
+	width:28px;
+	height: 28px;
 	position: relative;
-	top: 10px;
+	top: 5px;
 	-webkit-transition: all 0.4s ease;
 	-o-transition: all 0.4s ease;
 	transition: all 0.4s ease;
@@ -74,7 +69,7 @@ h1 {
 
 .accordion li img.imgRight{
 	position: relative;
-	top: 27px;
+	top: 25px;
 	float:right;
 	display:block;
 	clear:both;
@@ -86,10 +81,10 @@ h1 {
 }
 
 .accordion li.open img.imgRight {
-	-webkit-transform: rotate(180deg);
-	-ms-transform: rotate(180deg);
-	-o-transform: rotate(180deg);
-	transform: rotate(180deg);
+	-webkit-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	transform: rotate(90deg);
 }
 
 /**
@@ -101,14 +96,14 @@ h1 {
 
  .submenu li {
  	border-bottom: 1px solid #CCC;
-	 margin-left: 125px;
-	 height: 88px;
+	 margin-left: 88px;
+	 height: 70px;
  }
 
  .submenu a {
  	display: block;
  	text-decoration: none;
-	line-height: 88px;
+	line-height: 70px;
  	-webkit-transition: all 0.25s ease;
  	-o-transition: all 0.25s ease;
  	transition: all 0.25s ease;
