@@ -22,6 +22,7 @@ ul {
 
 a {
 	text-decoration: none;
+	color: #666666;
 }
 
 /** =======================
@@ -73,7 +74,7 @@ h1 {
 
 .accordion li img.imgRight{
 	position: relative;
-	top: 20px;
+	top: 27px;
 	float:right;
 	display:block;
 	clear:both;
@@ -81,6 +82,7 @@ h1 {
 
 .accordion li.open .link {
 	color: rgb(3,170,243);
+	border-bottom: 1px solid #CCC;
 }
 
 .accordion li.open img.imgRight {
@@ -98,7 +100,7 @@ h1 {
  }
 
  .submenu li {
- 	border-bottom: 1px solid #4b4a5e;
+ 	border-bottom: 1px solid #CCC;
 	 margin-left: 125px;
 	 height: 88px;
  }
