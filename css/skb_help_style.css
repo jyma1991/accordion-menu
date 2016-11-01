@@ -53,6 +53,10 @@ a {
 	/*border-bottom: 0;*/
 }
 
+.accordion li:not(:first-child) .link {
+	border-top: 1pt solid #d7d7d7;
+	/*border-bottom: 0;*/
+}
 .accordion li span{
 	margin-left: 15px;
 }
@@ -77,8 +81,19 @@ a {
 	clear:both;
 }
 
+.accordion a img.imgSub{
+	width:7px;
+	height: 12px;
+	position: relative;
+	top: 17px;
+	right: 15px;
+	float:right;
+	display:block;
+	clear:both;
+}
+
 .accordion li.open .link {
-	color: rgb(3,170,243);
+	/*color: rgb(3,170,243);*/
 	border-bottom: 1pt solid #d7d7d7;
 }
 
@@ -97,11 +112,19 @@ a {
  }
 
  .submenu li {
- 	border-bottom: 1pt solid #d7d7d7;
 	 margin-left: 64px;
 	 height: 44px;
  }
 
+.submenu li:not(:first-child){
+	border-top: 1pt solid #d7d7d7;
+	/*border-bottom: 0;*/
+}
+
+.submenu li:not(:last-child){
+	border-bottom: 1pt solid #d7d7d7;
+	/*border-bottom: 0;*/
+}
  .submenu a {
  	display: block;
  	text-decoration: none;
